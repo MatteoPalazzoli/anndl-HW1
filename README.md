@@ -1,4 +1,4 @@
-# anndl-HW1
+# Artificial Neural Networks and Deep Learning - homework 1
 ## Convolutional Neural Network for image recognition  
 In this homework you are required to classify species of plants (like the ones in the example image below), which are divided into categories according to the species of the plant to which they belong. Being a classification problem, given an image, the goal is to predict the correct class label.
 The framework used to solve the homework are those we have seen during the practical lectures (Tensorflow, Keras).  
