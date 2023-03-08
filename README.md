@@ -4,16 +4,20 @@ In this homework you are required to classify species of plants (like the ones i
 The framework used to solve the homework are those we have seen during the practical lectures (Tensorflow, Keras).  
 ![Species 1](https://github.com/MatteoPalazzoli/anndl-HW1/blob/main/00012.jpg)
 ![Species 5](https://github.com/MatteoPalazzoli/anndl-HW1/blob/main/00064.jpg)
-### Two-Phases Competition
+### Challenge instructions
 The homework is organized as a two-phases competition:
+- Phase 1: development phase. We provide you with labeled training data. Your submissions will be evaluated on an hidden test set. The score obtained by your model will be displayed on the leaderboard.  
+- Phase 2: final phase. Your submissions will be evaluated on an final hidden test set (different from the one of Phase 1), to compute the final Leaderboard. During this Phase 2 you have the possibility of performing maximum 2 submissions IN TOTAL. Choose the model you think is the best based on the results on Phase 1.  
 
-    - Phase 1: development phase. We provide you with labeled training data. Your submissions will be evaluated on an hidden test set. The score obtained by your model will be displayed on the leaderboard.  
-    - Phase 2: final phase. Your submissions will be evaluated on an final hidden test set (different from the one of Phase 1), to compute the final Leaderboard. During this Phase 2 you have the possibility of performing maximum 2 submissions IN TOTAL. Choose the model you think is the best based on the results on Phase 1.  
+### Files
+- `dataset.zip` is the dataset zip archive. It contains 8 folders, one for each Species. Each folder contains the samples.
+- `model.ipynb` is the notebook with all the code
 
-### Submission Format
-
-You are required to submit your code instead of directly providing the predictions. In order to do so, you must follow the following submission format:
-
-    submission must be a zip file (e.g., submission.zip) containing two files: model.py and metadata. The names of these two files must not be changed. 
-    metadata file is just an empty file that is required by CodaLab to mark the submission as a "code" submission. Please add it in the zip file as shown in the starting kit.
-    model.py will contain the code you submit for the evaluation. In order to be compatible with the evaluation backend, it must have the structure reported in the example below. The script must contain the definition of the class Model, which must have at least two functions: __init__ and predict. In the __init__ function you are required to create and load the model (or the model components), while in the predict function the model is used for predicting the class corresponding to the input X. Please notice that the given definition of these two functions must be respected, i.e., the argument path in the init function must be always provided, as well as the argument X of the predict function. If one of the argument is missing from the class functions you submit, the overall evaluation procedure will raise an error. 
+### Results
+```
+Accuracy    Species1    Species2    Species3    Species4    Species5    Species6    Species7    Species8
+Score       F1 Score    F1 Score    F1 Score    F1 Score    F1 Score    F1 Score    F1 Score    F1 Score
+---------------------------------------------------------------------------------------------------------
+0.8647      0.7351      0.8503      0.9270      0.8575      0.9029      0.9165      0.9448      0.7836  
+```
+More detailed results with accuracy score plot and confusion matrix are present into the notebook.
