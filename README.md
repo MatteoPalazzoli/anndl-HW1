@@ -2,6 +2,8 @@
 ## Convolutional Neural Network for image recognition  
 In this homework you are required to classify species of plants (like the ones in the example image below), which are divided into categories according to the species of the plant to which they belong. Being a classification problem, given an image, the goal is to predict the correct class label.
 The framework used to solve the homework are those we have seen during the practical lectures (Tensorflow, Keras).  
+![Species 1](https://github.com/MatteoPalazzoli/anndl-HW1/blob/main/00012.jpg)
+![Species 5](https://github.com/MatteoPalazzoli/anndl-HW1/blob/main/00064.jpg)
 ### Two-Phases Competition
 The homework is organized as a two-phases competition:
 
