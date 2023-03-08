@@ -12,6 +12,7 @@ The homework is organized as a two-phases competition:
 ### Files
 - `dataset.zip` is the dataset zip archive. It contains 8 folders, one for each Species. Each folder contains the samples.
 - `model.ipynb` is the notebook with all the code
+- `Report.pdf`  is the final report  
 
 ### Results
 ```
